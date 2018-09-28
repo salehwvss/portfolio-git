@@ -1,0 +1,219 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Project3</title>
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/flexbox.css">
+  <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body style="background-color:white" data-spy="scroll" data-target="#myScrollspy" data-offset="20">
+
+  <header class="main-header"> <!-- ///////////////////////////////////////////// top header of my site -->
+    <div class="header-wrapper">    <!-- top header containing logo, nav, account and cart -->
+      <div class="header-logo">      <!-- logo in header -->
+       <a href="index.html">
+        <!-- <img class="logo-img" src="img/home-logo.png" alt="logo on top left">  -->
+        <!-- <h1> Saleh Ebrahimzadeh</h1> -->
+       </a>
+      </div>
+    </div>
+
+      <div class="main-nav">       <!-- //////////////////////////////////Main navigation on top -->
+        <a class="shop-button-p3" href="index.html">Projects</a>
+        <a class="account-button-p3" href="about.html" id="MyAccount">About</a>
+      </div>      <!-- //////////////////////////////////Main navigation on top closed -->
+  </header>   <!-- ///////////////////////////////////////////// top header of my site closed-->
+
+
+  <div class="home-wrapper">
+      <div class="home-products-wrapper-p1-process">
+        <div class="home-products-p1">
+    <!-- vertical tabs for scroll -->
+<div class="vertic-nav2">
+    <div class="row">
+      <nav class="col-sm-3" id="myScrollspy">
+        <ul class="nav nav-pills nav-stacked" id="p3-h6" data-spy="affix" data-offset-top="205">
+          <li class="active" ><a href="#p1-h2" id="tab-color">Overview</a></li><br>
+          <li><a href="#Role">My Role </a></li><br>
+          <li><a href="#levels">Levels</a></li><br>
+          <li><a href="project3-process.html">Process</a></li>
+          </ul>
+          </nav>
+          </div>
+          </div>
+                    
+     
+    </div>
+  </div>
+</div>
+
+
+  <div class="home-wrapper"> <!-- a section containing products and tabs -->
+    <div class="home-products-wrapper"> <!-- a section containing only products  -->
+      <div class="home-products-text">
+          <h2 id="p3-h2-challenge"> <span id="Overview">Phase</h2> </span>
+
+        <h6 class="textstyle" id="p3-h6"> <span style="font-weight:bold">The Game: </span> Phase is a space exploration and puzzle game that takes place on a space station that is floating throughout the galaxy. Unfortunately, the space station gets hit by a meteor shower, which damages part of the station and alters its trajectory directing the space station straight towards a deadly asteroid field. As the sole survivor on the station, the goal of the user is to go through a series of puzzles to reach the backup generator room and return the station back to its original trajectory. The user begins in a room, which acts as a start screen featuring three consoles: one containing information regarding the controls, one featuring information about the story world and the middle console contains a button allowing the user to “begin” the game. <img class="small-images"  src="img/products/phase/Start-Screen.PNG"><br> <span style="font-weight:bold">Team: </span> We developed the game in teams of 5. <br> <span style="font-weight:bold">Roles: </span> We devided the project into levels. Each person was responsible for designing and programming a puzzle-based level. I proposed conveyor level idea, and designed and programmed it from start to finish. <br>
+
+          <span style="font-weight:bold" id="Role">My Role: </span>
+          I was responsible for the Conveyor Room, mainly in terms of coding/scripting, lighting,
+modelling, sound effects, interactions and ensuring the puzzle was running smoothly.
+I was also responsible for Generator Room's code.
+<br><br>
+
+          </h6>
+
+       
+              <iframe class="phase-vid" id="p3-h6" src="https://www.youtube.com/embed/QAIQXjXgVy4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+             
+          </iframe>
+          <div class="leftside">
+          <h2 id="p3-h2-challenge"> <span id="levels">Command Room: </h2></span>
+            <h6 class="textstyle-challenge" id="p3-h6">The Command Room is the initial room the user wakes up in. The automatic door in the Command Room has been affected due to the hit from the meteor - the user must figure out how to power up the door in order to open it. The user needs to locate a small energy source, which is located somewhere in the room and place it in a specific spot in order to open the door. The user needs to search the room for the power source, but can also take the time to explore the room if they wish. While exploring the room, the player will notice several things. They will see a television screen displaying an low battery warning as well as hear multiple warning sounds notifying the power is low. Once the energy source is slotted into the center console, the alarms and other alerts will stop beeping. More importantly, the door will unlock which allows the player to progress to the next level. <p>Video is the earlier version</p>
+
+                <video width="100%" controls>
+                    <source src="img/products/phase/commandroom-vid.mp4" type="video/mp4" > 
+                    Your browser does not support HTML5 video.
+                  </video>
+
+            </h6><br><br>
+
+              
+
+          </div>
+          <div class="rightside">
+            <h2 id="p3-h2-overcoming">Tile Room: </h2>
+              <h6 class="textstyle-overcoming" id="p3-h6">The user navigates from the Command Room to the Tile Room and Living Quarters. The user can explore the Living Quarters placed to add a touch of realism, such that people would actually live in the space station. Some objects here are grabbable, but not necessary to progress. The user will eventually notice the darkened hallway that leads towards the Tile Room. Before the Tile Room, there is a simple puzzle and console upon which the player must input a simple pattern to open the first door. This is to teach them how to understand and read the Tile Room. The Tile Room hosts the first puzzle: the user navigates through a hallway scattered with hints, and eventually enters a room and sees a four-sided console in the middle of the room. Each side of the console is made of up of 9 tiles. Each side is marked with a number (1 to 4). The user has to create the right pattern on each side of the console in order to power up the room and the surrounding area. <p>Video is the earlier version</p>
+
+                  <video width="100%" controls>
+                      <source src="img/products/phase/Tile Room-vid.mp4" type="video/mp4">
+                      Your browser does not support HTML5 video.
+                    </video>
+              </h6><br><br>
+            
+            </div>
+
+
+            <div class="leftside">
+                <h2 id="p3-h2-challenge">Destroyed Hallway: </h2>
+                  <h6 class="textstyle-challenge" id="p3-h6">The next big challenge for the user is to navigate across a destroyed section of the space station.  One entire section of the space station has been destroyed from the meteor hit - to get to the other side of the space station you need to activate the magnetic photon generator.  Players will need to locate two energy packs located somewhere in the destroyed hallway and insert the energy packs to power the magnetic photon generator. Once powered, some of the debris will align itself creating a path for the user to navigate across destroyed section of the station  and make it safely to the other side. The player is at risk of falling off, and they will die and respawn if they fall. Additionally, failing to activate the magnetic photon generator will make it impossible to pass the level. Several hints are provided to help players solve the problem. A warning video which informs players about the magnetic field detablization. The magnetic photon generator also has slot for 4 energy packs, two of which already have energy packs inserted. This is to let the player know where to place the energy packs. <p>Video is the earlier version</p>
+
+                      <video width="100%" controls>
+                          <source src="img/products/phase/Destroyed-Hallway-vid.mp4" type="video/mp4">
+                          Your browser does not support HTML5 video.
+                        </video>
+                  </h6>
+   
+      
+      
+                </div>
+                <div class="rightside">
+                  <h2 id="p3-h2-overcoming">Conveyor Belt Room: (My level)</h2>
+                    <h6 class="textstyle-overcoming" id="p3-h6">The conveyor room holds the final puzzle: the room features a series of conveyors with three blocks moving along them: a red block, a green block and a yellow block. The user needs to use three different consoles to change the direction of the conveyors and have all three blocks align on the correct places (tiles that match the colour of the blocks). Once the user aligns all three blocks in the right place - the door to the generator room opens up.
+                        If the user place one of the boxes in the correct place, but accidentally places another box in that area, the conveyor will reset and start to carry the two boxes together which makes the puzzle harder to solve because the user has to separate the boxes using the conveyors and consoles.
+                        After completing the conveyor puzzle, the user is able to enter the generator room: the final stage of our experience. The user presses the button to active the generator, which restores power back to the space station! After a short delay, the user is taken back to the menu screen. <p>Video is the final version</p><br>                   
+      
+                        <video width="100%" controls>
+                            <source src="img/products/phase/conveyor-vid.mp4" type="video/mp4">
+                            Your browser does not support HTML5 video.
+                          </video>
+                          <br><br>
+                    </h6>
+                  </div>
+
+         
+
+            <div class="leftside">
+                <h2 id="p3-h2-challenge">Process</h2>
+                <a href="project3-process.html">
+                  <div id="animated-border-blue-process">
+                  <img id="p3-h6" class="project2sample-process" src='img/products/geoprocess.jpg' style="opacity: 0.9; height:450px" />
+                </a>
+              </div>
+            </div>
+
+      </div>
+    </div>
+  </div>
+  <br><br><br><br><br><br><br><br><br><br><br><br>
+  <div class="back-but-container">
+    <a href="index.html" class="but-back-blue">BACK TO HOMEPAGE</a>
+    <br><br><br><br><br><br>
+  </div>
+
+
+
+  <footer class="footer-container">  <!-- ///////////////////////////////////////////////Footer -->
+    <div class="footer-contents">       <!-- all info, address and links in the footer -->
+
+      <ul class="footer-address">
+        <h3 style="font-size: 1em;"> Address </h3>
+        <li><p style="color: #337ab7;" id="address">Fullerton Avenue <br>North Vancouver <br>British Columbia <br>Canada</p></li>
+      </ul>
+      <ul class="footer-Contact">
+       <h3 style="font-size: 1em;"> Contact Me </h3>
+        <li><a style="color: #337ab7;" href="mailto:salehe@sfu.ca.com">salehe@sfu.ca</a></li>
+        <li><a style="color: #337ab7;" href="tel:+16047792949">604-779-2949</a></li>
+      </ul>
+    </div>
+  </footer>   <!-- ///////////////////////////////////////////////Footer closed-->
+  <!-- <script src="js/javascript.js"></script> -->
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+  <script src="js/jquery.ripples.js"></script>
+  <script>
+  $(document).ready(function() {
+  	try {
+  		$('body').ripples({
+  			resolution: 512,
+  			dropRadius: 20, //px
+  			perturbance: 0.04,
+  		});
+  		$('main').ripples({
+  			resolution: 128,
+  			dropRadius: 10, //px
+  			perturbance: 0.04,
+  			interactive: false
+  		});
+  	}
+  	catch (e) {
+  		$('.error').show().text(e);
+  	}
+
+  	$('.js-ripples-disable').on('click', function() {
+  		$('body, main').ripples('destroy');
+  		$(this).hide();
+  	});
+
+  	$('.js-ripples-play').on('click', function() {
+  		$('body, main').ripples('play');
+  	});
+
+  	$('.js-ripples-pause').on('click', function() {
+  		$('body, main').ripples('pause');
+  	});
+
+  	// Automatic drops
+  	setInterval(function() {
+  		var $el = $('main');
+  		var x = Math.random() * $el.outerWidth();
+  		var y = Math.random() * $el.outerHeight();
+  		var dropRadius = 20;
+  		var strength = 0.04 + Math.random() * 0.04;
+
+  		$el.ripples('drop', x, y, dropRadius, strength);
+  	}, 400);
+  });
+  </script>
+
+</body>
+</html>

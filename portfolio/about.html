@@ -1,0 +1,179 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About</title>
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/flexbox.css">
+  <link rel="stylesheet" href="css/main2.css">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
+
+
+</head>
+
+<body style="background-color:white">
+  <header class="main-header">
+    <div class="header-wrapper">
+      <div class="header-logo">
+       <a href="index.html">
+
+       </a>
+      </div>
+    </div>
+
+    <div class="main-nav">
+      <a class="shop-button" href="index.html">Projects</a>
+      <a class="account-button" href="about.html" id="MyAccount">About</a>
+      <!-- <a class="account-button" href="about.html" id="MyAccount">Reference</a> -->
+    </div>
+</header>
+
+  <div class="home-wrapper"> <!-- a section containing products and tabs -->
+    <div class="home-products-wrapper"> <!-- a section containing only products  -->
+      <div class="home-products-text">
+        <h2 style="color:#4b4b4b; font-size: 1.2em;">About Me</h2>
+        <h6 class="textstyle-about">This is Saleh: Passionate about programming languages such as Java and C#, Video Games, SmartPhones, and tech as much as graphic design, user experience and interface design.
+          I am a fourth-year student at Simon Fraser University, majoring in Interactive Arts and Technology, concentrating in Interactive Systems (BSc). If you are looking for a hard-working developer and UX designer, you can count on me.
+         <br><br><br><br><br><br> <h2 style="color:#4b4b4b; font-size: 1.2em;">My skills </h2> 
+         
+         <h6 class="textstyle-about"> <span style="font-weight:bold; color: #4b4b4b;">Design:</span> Photoshop, Illustrator, InDesign, Sketch, Invision, Principle, Axure <br>  <span style="font-weight:bold; color: #4b4b4b;"> Programming: </span>HTML/CSS, JavaScript, OOP such as Java and C# <br>  <span style="font-weight:bold; color: #4b4b4b;"> Development tools: </span> Unity, Android Studio </h6>
+
+         
+
+         <br><br><br><br><br><br> <h2 style="color:#4b4b4b; font-size: 1.2em;">CONTACT</h2> <br><br><br><br><br><br>
+         <ul class="footer-social">
+          <a href="https://www.facebook.com/saleh.ebrahimzadeh" class="fa fa-facebook"></a>
+          <a href="https://twitter.com/GreatDealBazar" class="fa fa-twitter"></a>
+          <a href="https://plus.google.com/s/greatdealbazar/" class="fa fa-google"></a>
+          <a href="https://www.linkedin.com/in/saleh-ebrahimzadeh-205494b8/" class="fa fa-linkedin"></a>
+          <a href="https://www.instagram.com/greatdealbazar/" class="fa fa-instagram"></a>
+          <a href="https://www.pinterest.ca/greatdealbazar/" class="fa fa-pinterest"></a>
+          <a href="https://www.tumblr.com/blog/greatdealbazar" class="fa fa-tumblr"></a>
+        </ul>
+         <a class="submit-btn screen-email email-btn" href="mailto:salehwvss@gmail.com">EMAIL</a>
+         <a class="submit-btn screen-email email-btn" href="img/Resume.jpg">Resume</a><br>
+         <a class="submit-btn screen-email email-btn" href="certifications.html" style="margin-top:7px">certifications</a>
+
+      </div>
+    </div>
+  </div>
+
+
+
+  <!-- <script src="js/javascript.js"></script> -->
+
+  <!-- water ripple effect -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+  <script src="js/jquery.ripples.js"></script>
+  <script src="https://maroslaw.github.io/rainyday.js/dist/rainyday.0.1.2.min.js"></script>
+
+  <script>
+  $(document).ready(function() {
+  	try {
+  		$('body').ripples({
+  			resolution: 512,
+  			dropRadius: 20, //px
+  			perturbance: 0.04,
+  		});
+  		$('main').ripples({
+  			resolution: 128,
+  			dropRadius: 10, //px
+  			perturbance: 0.04,
+  			interactive: false
+  		});
+  	}
+  	catch (e) {
+  		$('.error').show().text(e);
+  	}
+
+  	$('.js-ripples-disable').on('click', function() {
+  		$('body, main').ripples('destroy');
+  		$(this).hide();
+  	});
+
+  	$('.js-ripples-play').on('click', function() {
+  		$('body, main').ripples('play');
+  	});
+
+  	$('.js-ripples-pause').on('click', function() {
+  		$('body, main').ripples('pause');
+  	});
+
+  	// Automatic drops
+  	setInterval(function() {
+  		var $el = $('main');
+  		var x = Math.random() * $el.outerWidth();
+  		var y = Math.random() * $el.outerHeight();
+  		var dropRadius = 20;
+  		var strength = 0.04 + Math.random() * 0.04;
+
+  		$el.ripples('drop', x, y, dropRadius, strength);
+  	}, 400);
+  });
+  </script>
+  <!-- water ripple effect closed -->
+
+  <script>
+
+  var colors = new Array(
+  [0,0,0],
+  [49, 40, 89],
+  [68, 54, 132],
+  [95, 119, 58],
+  [109, 114, 55],
+  [0,0,0]);
+
+  var step = 0;
+  var colorIndices = [0,1,2,3];
+  //transition speed
+  var gradientSpeed = 0.002;
+  function updateGradient()
+  {
+
+  if ( $===undefined ) return;
+
+  var c0_0 = colors[colorIndices[0]];
+  var c0_1 = colors[colorIndices[1]];
+  var c1_0 = colors[colorIndices[2]];
+  var c1_1 = colors[colorIndices[3]];
+
+  var istep = 1 - step;
+  var r1 = Math.round(istep * c0_0[0] + step * c0_1[0]);
+  var g1 = Math.round(istep * c0_0[1] + step * c0_1[1]);
+  var b1 = Math.round(istep * c0_0[2] + step * c0_1[2]);
+  var color1 = "rgb("+r1+","+g1+","+b1+")";
+
+  var r2 = Math.round(istep * c1_0[0] + step * c1_1[0]);
+  var g2 = Math.round(istep * c1_0[1] + step * c1_1[1]);
+  var b2 = Math.round(istep * c1_0[2] + step * c1_1[2]);
+  var color2 = "rgb("+r2+","+g2+","+b2+")";
+
+  $('#gradient').css({
+   background: "-webkit-gradient(linear, left top, right top, from("+color1+"), to("+color2+"))"}).css({
+    background: "-moz-linear-gradient(left, "+color1+" 0%, "+color2+" 100%)"});
+
+  step += gradientSpeed;
+  if ( step >= 1 )
+  {
+    step %= 1;
+    colorIndices[0] = colorIndices[1];
+    colorIndices[2] = colorIndices[3];
+
+    //pick two new target color indices
+    //do not pick the same as the current one
+    colorIndices[1] = ( colorIndices[1] + Math.floor( 1 + Math.random() * (colors.length - 1))) % colors.length;
+    colorIndices[3] = ( colorIndices[3] + Math.floor( 1 + Math.random() * (colors.length - 1))) % colors.length;
+
+  }
+  }
+
+  setInterval(updateGradient,10);
+  </script>
+
+
+</body>
+</html>
