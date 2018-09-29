@@ -811,10 +811,8 @@ font-size: 1.5em;
 
 
 #p2-h2{
-  color: #000;
-  /* text-shadow: 1px 1px 2px black, 0px 0px 5px #ff0767, 0 0 50px #ff4d92; */
-	margin-bottom: 5px;
-	text-align: left
+  color: #4b4b4b;
+	margin-bottom: 2em;
 }
 
 #p2-h6{
@@ -827,17 +825,13 @@ font-size: 1.5em;
 }
 
 #p2-h2-challenge{
-  color: #000;
-  /* text-shadow: 1px 1px 2px black, 0px 0px 5px #ff0767, 0 0 50px #ff4d92; */
-	margin-bottom: 5px;
-	text-align: left;
+  color: #4b4b4b;
+	margin-bottom: 2em;
 
 }
 #p2-h2-overcoming{
-  color: #000;
-  /* text-shadow: 1px 1px 2px black, 0px 0px 5px #ff0767, 0 0 50px #ff4d92; */
-	margin-bottom: 5px;
-	text-align: left;
+  color: #4b4b4b;
+	margin-bottom: 2em;
 }
 #p2-h2-process{
 	color: #000;
