@@ -858,24 +858,21 @@ font-size: 1.5em;
 }
 
 #p3-h6{
-	background-color: rgba(230, 237, 241, 0.59);
+	/* background-color: rgba(230, 237, 241, 0.59); */
 	padding: 10px;
   margin-top: 5px;
   border-radius: 20px;
+  color:#4b4b4b;
 }
 
 #p3-h2-challenge{
-	color: #000;
-	/* text-shadow: 1px 1px 2px black, 0px 0px 25px #3766D5, 0 0 5px #3766D5; */
-	margin-bottom: 5px;
-	text-align: left;
-
+	color: #4b4b4b;
+	margin-bottom: 2em;
 }
+
 #p3-h2-overcoming{
-	color: #000;
-	/* text-shadow: 1px 1px 2px black, 0px 0px 25px #3766D5, 0 0 5px #3766D5; */
-	margin-bottom: 5px;
-	text-align: left;
+	color: #4b4b4b;
+	margin-bottom: 2em;
 }
 #p3-h2-process{
 	color: #000;
