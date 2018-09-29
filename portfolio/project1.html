@@ -19,21 +19,21 @@
 
 <body style="background-color:white" data-spy="scroll" data-target="#myScrollspy" data-offset="20">
 
-  <header class="main-header"> <!-- ///////////////////////////////////////////// top header of my site -->
-    <div class="header-wrapper">    <!-- top header containing logo, nav, account and cart -->
-      <div class="header-logo">      <!-- logo in header -->
+  <header class="main-header">
+    <div class="header-wrapper">
+      <div class="header-logo">
        <a href="index.html">
-        <!-- <img class="logo-img" src="img/home-logo.png" alt="logo on top left">  -->
-        <!-- <h1> Saleh Ebrahimzadeh</h1> -->
+         <img src="img/LOGO.png" width="60px">
        </a>
       </div>
     </div>
 
-      <div class="main-nav">       <!-- //////////////////////////////////Main navigation on top -->
-        <a class="shop-button-p1" href="index.html">Projects</a>
-        <a class="account-button-p1" href="about.html" id="MyAccount">About</a>
-      </div>      <!-- //////////////////////////////////Main navigation on top closed -->
-  </header>   <!-- ///////////////////////////////////////////// top header of my site closed-->
+      <div class="main-nav">
+        <a class="projects-nav-btn" href="index.html">Projects</a>
+        <a class="about-nav-btn" href="about.html" id="MyAccount">About</a>
+
+      </div>
+  </header>
 
   
   <div class="home-wrapper">
@@ -45,7 +45,7 @@
       <nav class="col-sm-3" id="myScrollspy">
         <ul class="nav nav-pills nav-stacked" id="p-h6" data-spy="affix" data-offset-top="205">
           <li class="active" ><a href="#p1-h2" id="tab-color">Overview</a></li><br>
-          <li><a href="#challenges">Challenges</a></li><br>
+          <li><a href="#challenges" style="color:black;">Challenges</a></li><br>
           <li><a href="#Role">My Role </a></li><br>
           <li><a href="project1-process.html">Process</a></li>
           </ul>
@@ -62,7 +62,8 @@
   <div class="home-wrapper"> <!-- a section containing products and tabs -->
     <div class="home-products-wrapper"> <!-- a section containing only products  -->
       <div class="home-products-text2">
-          <h2 id="p1-h2"><span style="font-weight:bold">Dr. Jelly and Kobe </span></h2>
+
+          <h2 id="p1-h2">Dr. Jelly and Kobe</h2>
 
         <h6 class="textstyle" id="p-h6"> <img class="project1sample" src='img/products/myprojectsample1.png' style="opacity: 0.9;"/><span style="font-weight:bold">The game: </span>“Dr. Jelly and Kobe” is a third person platformer mobile game developed via “UNITY” game engine in C# language. The game world aesthetics takes the players to a childish world where they can enjoy guiding Kobe through obstacles and dangerous items in the game world. The game world also challenges the player in various ways, encouraging them to play more. This is due to the nature of platformer games where the player enjoys passing time by running, jumping and avoiding obstacles in the game play. <br>
           <span style="font-weight:bold">Plot: </span> Dr. Jelly is an alien scientist who is on a mission to collect babies from the earth for his scientific research. On his first mission, he needs to capture Kobe; but, getting his hands on Kobe is not as easy as he thinks….<br>
@@ -70,11 +71,13 @@
           <span style="font-weight:bold">Objective: </span> The game has been developed to please the user and improve player’s decision-making skill by letting the player choose between best provided options in order to survive.<br>
           <span style="font-weight:bold">Team members: </span> This project has been created by a team of four.<br>
           <span style="font-weight:bold">Core loop: </span> The core loop of this game is running, avoiding obstacle and collecting rewards (candies, jellies, cotton candies).<br>
-
-
           </h6>
-          <div class="leftside">
-          <h2 id="p1-h2-challenge"> <span style="font-weight:bold" id="challenges">Challenges</span></h2>
+
+          <br><br>
+
+
+      
+          <h2 id="p1-h2-challenge"><span id="challenges"  style="font-weight:bold">Challenges</h2></span>
             <h6 class="textstyle-challenge" id="p-h6">As a team, each of us encountered different problems from
                 visuals to coding. For me the most difficult part of the game
                 logic was the artificial intelligence of the characters specially
@@ -82,31 +85,32 @@
                 for example he had to avoid obstacles, and throws objects at
                 Kobe. We also encountered other challenges like optimizing our game for different platforms including IOS and Androi to get the best performance. <br><br><br>
             </h6>
-          </div>
-          <div class="rightside">
-            <h2 id="p1-h2-overcoming"><span style="font-weight:bold">Overcoming Chanllenges</span></h2>
+         
+            <br><br>
+         
+            <h2 id="p1-h2-overcoming" >Overcoming Challenges</h2>
               <h6 class="textstyle-overcoming" id="p-h6">During project process and development we faced several challenges including time constraints and different member’s opinion upon certain elements of the game. Since we were four persons in the team we needed a group leader to guide us through the project. We assigned the group leader in the second week of the project. We were able to manage our time by sticking to the assigned weekly schedule. I focused on AI of the game for several days, because without an AI the movement and animation of the Dr. Jelly would be repetitive and not aesthetically pleasing. I achieved a fairy simple AI using logics such as if and switch statements. </h6>
-            </div>
-
-            <div class="leftside">
+           
+              <br><br>
+           
               
-            <h2 id="p1-h2-challenge"><span style="font-weight:bold" id="Role">My Role</span></h2>
+            <h2 id="p1-h2-challenge"><span id="Role" style="font-weight:bold" >My Role</span></h2>
               <h6 class="textstyle-challenge" id="p-h6">-	The whole C# coding<br>
                   -	Mechanics and animation integration <br>
                   -	Artificial Intelligence of the game characters <br>
                   -	Character movements, animations, platform colliders, narration, tutorial, start screen, object collisions, health bar position, powerup position, state changes and positioning of the game elements <br>
-                  -	Game balance
-                   <br><br><br></h6>
-            </div>
+                  -	Game balance</h6>
 
-            <div class="rightside">
+                   <br><br>
+          
+           
                 <h2 id="p1-h2-challenge"><span style="font-weight:bold">Process </span></h2>
                 <a href="project1-process.html">
                   <div id="animated-border-green">
-                  <img id="p-h6" class="project1sample-process" src='img/products/kobeprocess1.png' style="opacity: 0.9;" />
+                  <img id="p-h6" class="project1sample-process" src='img/products/kobeprocess1.png'/>
                 </a>
               </div>
-            </div>
+           
 
       </div>
     </div>
@@ -117,70 +121,9 @@
   </div>
 
 
+<br><br>
 
-  <footer class="footer-container">  <!-- ///////////////////////////////////////////////Footer -->
-    <div class="footer-contents">       <!-- all info, address and links in the footer -->
 
-      <ul class="footer-address">
-        <h3 style="font-size: 1em;"> Address </h3>
-        <li><p style="color: #337ab7;" id="address">Fullerton Avenue <br>North Vancouver <br>British Columbia <br>Canada</p></li>
-      </ul>
-      <ul class="footer-Contact">
-       <h3 style="font-size: 1em;"> Contact Me</h3>
-        <li><a style="color: #337ab7;" href="mailto:salehe@sfu.ca.com">salehe@sfu.ca</a></li>
-        <li><a style="color: #337ab7;" href="tel:+16047792949">604-779-2949</a></li>
-      </ul>
-    </div>
-  </footer>   <!-- ///////////////////////////////////////////////Footer closed-->
-  <!-- <script src="js/javascript.js"></script> -->
-
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
-  <script src="js/jquery.ripples.js"></script>
-  <script>
-  $(document).ready(function() {
-  	try {
-  		$('body').ripples({
-  			resolution: 512,
-  			dropRadius: 20, //px
-  			perturbance: 0.04,
-  		});
-  		$('main').ripples({
-  			resolution: 128,
-  			dropRadius: 10, //px
-  			perturbance: 0.04,
-  			interactive: false
-  		});
-  	}
-  	catch (e) {
-  		$('.error').show().text(e);
-  	}
-
-  	$('.js-ripples-disable').on('click', function() {
-  		$('body, main').ripples('destroy');
-  		$(this).hide();
-  	});
-
-  	$('.js-ripples-play').on('click', function() {
-  		$('body, main').ripples('play');
-  	});
-
-  	$('.js-ripples-pause').on('click', function() {
-  		$('body, main').ripples('pause');
-  	});
-
-  	// Automatic drops
-  	setInterval(function() {
-  		var $el = $('main');
-  		var x = Math.random() * $el.outerWidth();
-  		var y = Math.random() * $el.outerHeight();
-  		var dropRadius = 20;
-  		var strength = 0.04 + Math.random() * 0.04;
-
-  		$el.ripples('drop', x, y, dropRadius, strength);
-  	}, 400);
-  });
-  </script>
-  <!-- background color change -->
 
 </body>
 </html>

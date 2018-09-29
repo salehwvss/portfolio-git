@@ -16,6 +16,7 @@ body {
 }
 
 
+
 h1 {
 	/*font-family: 'AvenirNextLTPro-Regular', Helvetica, Arial, sans-serif;*/
 	font-weight: 100;
@@ -132,7 +133,7 @@ color: black;
  /* background-color: #1a1b1c; */ 
 }
 
-.shop-button{
+.projects-nav-btn{
   display: inline-block;
   padding: 0.5em 2.38em;
   color: #4b4b4b;
@@ -143,7 +144,7 @@ color: black;
   text-align: center;
 	width: 130px;
 }
-.shop-button-p4{
+.projects-nav-btn-p4{
   display: inline-block;
   padding: 0.5em 2.38em;
   color: #fdc40a;
@@ -156,7 +157,7 @@ color: black;
   border-radius: 50px;
 }
 
-.shop-button-p5{
+.projects-nav-btn-p5{
   display: inline-block;
   padding: 0.5em 2.38em;
   color: #AE3FCF;
@@ -169,7 +170,7 @@ color: black;
   border-radius: 50px;
 }
 
-.shop-button-p6{
+.projects-nav-btn-p6{
   display: inline-block;
   padding: 0.5em 2.38em;
   color: #FF9595;
@@ -193,26 +194,26 @@ color: black;
 	/*width: 117px;*/
 
 }
-.shop-button:hover, .shop-button:focus {
+.projects-nav-btn:hover, .projects-nav-btn:focus {
   background-color: #ffffff;
   color: rgb(35, 13, 59)
 }
 
-.shop-button-p4:hover, .shop-buttonp4:focus {
+.projects-nav-btn-p4:hover, .projects-nav-btnp4:focus {
   background-color: #fac022;
   color: #051421;
 }
 
-.shop-button-p5:hover, .shop-buttonp5:focus {
+.projects-nav-btn-p5:hover, .projects-nav-btnp5:focus {
   background-color: #AE3FCF;
   color: #051421;
 }
 
-.shop-button-p6:hover, .shop-buttonp6:focus {
+.projects-nav-btn-p6:hover, .projects-nav-btnp6:focus {
   background-color: #FF9595;
   color: #051421;
 }
-.account-button{
+.about-nav-btn{
   display: inline-block;
   padding: 0.5em 0.75em;
   color: #4b4b4b;
@@ -225,12 +226,12 @@ color: black;
 }
 
 
-.account-button:hover, .account-button:focus {
+.about-nav-btn:hover, .about-nav-btn:focus {
   background-color: #ffffff;
   color: #051421;
 }
 
-.account-button-p4{
+.about-nav-btn-p4{
   display: inline-block;
   padding: 0.5em 0.75em;
   color: #fdc40a;
@@ -243,12 +244,12 @@ color: black;
   border-radius: 50px;
 }
 
-.account-button-p4:hover, .account-button-p4:focus {
+.about-nav-btn-p4:hover, .about-nav-btn-p4:focus {
   background-color: #fac022;
   color: #051421;
 }
 
-.account-button-p5{
+.about-nav-btn-p5{
   display: inline-block;
   padding: 0.5em 0.75em;
   color: #AE3FCF;
@@ -261,12 +262,12 @@ color: black;
   border-radius: 50px;
 }
 
-.account-button-p5:hover, .account-button-p5:focus {
+.about-nav-btn-p5:hover, .about-nav-btn-p5:focus {
   background-color: #AE3FCF;
   color: #051421;
 }
 
-.account-button-p6{
+.about-nav-btn-p6{
   display: inline-block;
   padding: 0.5em 0.75em;
   color: #FF9595;
@@ -279,12 +280,12 @@ color: black;
   border-radius: 50px;
 }
 
-.account-button-p6:hover, .account-button-p6:focus {
+.about-nav-btn-p6:hover, .about-nav-btn-p6:focus {
   background-color: #FF9595;
   color: #051421;
 }
 
-.shop-button-p1{
+.projects-nav-btn-p1{
   display: inline-block;
   padding: 0.5em 2.38em;
   color: #aefa22;
@@ -297,13 +298,13 @@ color: black;
   border-radius: 50px;
 }
 
-.shop-button-p1:hover, .shop-buttonp1:focus {
+.projects-nav-btn-p1:hover, .projects-nav-btnp1:focus {
   background-color: #aefa22;
   color: #051421;
 }
 
 
-.account-button-p1{
+.about-nav-btn-p1{
   display: inline-block;
   padding: 0.5em 0.75em;
   color: #aefa22;
@@ -316,13 +317,13 @@ color: black;
   border-radius: 50px;
 }
 
-.account-button-p1:hover, .account-button-p1:focus {
+.about-nav-btn-p1:hover, .about-nav-btn-p1:focus {
   background-color: #aefa22;
   color: #051421;
 }
 
 
-.shop-button-p2{
+.projects-nav-btn-p2{
   display: inline-block;
   padding: 0.5em 2.38em;
   color: #900C3F;
@@ -335,13 +336,13 @@ color: black;
   border-radius: 50px;
 }
 
-.shop-button-p2:hover, .shop-buttonp2:focus {
+.projects-nav-btn-p2:hover, .projects-nav-btnp2:focus {
   background-color: #900C3F;
   color: #051421;
 }
 
 
-.account-button-p2{
+.about-nav-btn-p2{
   display: inline-block;
   padding: 0.5em 0.75em;
   color: #900C3F;
@@ -354,13 +355,13 @@ color: black;
   border-radius: 50px;
 }
 
-.account-button-p2:hover, .account-button-p2:focus {
+.about-nav-btn-p2:hover, .about-nav-btn-p2:focus {
   background-color: #900C3F;
   color: #051421;
 }
 
 
-.shop-button-p3{
+.projects-nav-btn-p3{
   display: inline-block;
   padding: 0.5em 2.38em;
   color: #3766D5;
@@ -373,13 +374,13 @@ color: black;
   border-radius: 50px;
 }
 
-.shop-button-p3:hover, .shop-buttonp3:focus {
+.projects-nav-btn-p3:hover, .projects-nav-btnp3:focus {
   background-color: #3766D5;
   color: #051421;
 }
 
 
-.account-button-p3{
+.about-nav-btn-p3{
   display: inline-block;
   padding: 0.5em 0.75em;
   color: #3766D5;
@@ -392,7 +393,7 @@ color: black;
   border-radius: 50px;
 }
 
-.account-button-p3:hover, .account-button-p3:focus {
+.about-nav-btn-p3:hover, .about-nav-btn-p3:focus {
   background-color: #3766D5;
   color: #051421;
   
@@ -493,33 +494,26 @@ color: black;
 	}
 
 	.textstyle{
-		color:black;
 		max-width: 1070px;
 		text-align: left;
-		/*margin-left: 13em;*/
-		/* font-size: 0.83em; */
 		LINE-HEIGHT:30px;
-		margin-bottom: 2em;
+    margin-bottom: 2em;
+    font-size: 1.1em;
 	}
 
 	.textstyle-challenge{
-		color:black;
-		max-width: 530px;
 		text-align: left;
-		/*margin-left: 13em;*/
-		/* font-size: 0.83em; */
+		font-size: 1.1em;
 		LINE-HEIGHT:30px;
 		margin-bottom: 2em;
 	}
 	.textstyle-overcoming{
-		color:black;
-		max-width: 528px;
 		text-align: left;
-		/*margin-left: 13em;*/
-		/* font-size: 0.83em; */
+		font-size: 1.1em;
 		LINE-HEIGHT:30px;
 		margin-bottom: 2em;
-	}
+  }
+  
 	.leftside{
 		float: left;
 		margin-right:10px;
@@ -664,10 +658,8 @@ color: black;
 }
 
 #p1-h2{
-	color: #000;
-    /* text-shadow: 1px 1px 2px black, 0px 0px 25px #cbf34d, 0 0 5px #cbf34d; */
-		margin-bottom: 5px;
-		text-align: left;
+		margin-bottom: 2em;
+    font-weight: bold;
 }
 #p1-h2-process{
 	color: #000;
@@ -687,17 +679,13 @@ color: black;
 }
 
 #p1-h2-challenge{
-  color: #000;
-  /* text-shadow: 1px 1px 2px black, 0px 0px 25px #cbf34d, 0 0 5px #cbf34d; */
-		margin-bottom: 5px;
-		text-align: left
+		margin-bottom: 2em;
+    font-weight: bold;
 
 }
 #p1-h2-overcoming{
-	color: #000;
-    /* text-shadow: 1px 1px 2px black, 0px 0px 25px #cbf34d, 0 0 5px #cbf34d; */
-	margin-bottom: 5px;
-	text-align: left
+	margin-bottom: 2em;
+  font-weight:bold;
 }
 
 #p4-h2{
@@ -774,7 +762,7 @@ font-size: 1.5em;
 }
 
 #p-h6{
-	background-color: rgba(230, 241, 232, 0.59);
+	/* background-color: rgba(230, 241, 232, 0.59); */
 	padding: 10px;
   margin-top: 5px;
   border-radius: 20px;
@@ -1964,11 +1952,8 @@ margin: 0px;
   border-radius: 20px !important;
 }
 .nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover{
-  max-width: 250px;
-  background: #05abe0;
-  background: -moz-linear-gradient(45deg, #05abe0 0%, #8200f4 100%);
-  background: -webkit-linear-gradient(45deg, #05abe0 0%,#8200f4 100%);
-  background: linear-gradient(45deg, #05abe0 0%,#8200f4 100%);
+  max-width: fit-content;
+  background: #4b4b4b !important;
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#05abe0', endColorstr='#8200f4',GradientType=1  !important;
 }
 
