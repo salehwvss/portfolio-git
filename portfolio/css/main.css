@@ -689,40 +689,26 @@ color: black;
 }
 
 #p4-h2{
-  color: #000;
-  /* text-shadow: 1px 1px 2px black, 0px 0px 25px #fdc40a, 0 0 5px #fdc40a; */
-  margin-bottom: 5px;
-  text-align: left;
+  color: #4b4b4b;
+  margin-bottom: 2em;
 }
 #p4-h2-process{
-color: #000;
-/* text-shadow: 1px 1px 2px black, 0px 0px 25px #fdc40a, 0 0 5px #fdc40a; */
-margin-bottom: 5px;
-text-align: left;
-font-size: 1.5em;
+  color: #4b4b4b;
+  margin-bottom: 2em;
 
 }
 
 #p5-h2-process{
-  color: #000;
-  /* text-shadow: 1px 1px 2px black, 0px 0px 25px #AE3FCF, 0 0 5px #AE3FCF; */
-  margin-bottom: 5px;
-  text-align: left;
-  font-size: 1.5em;
+  color: #4b4b4b;
+  margin-bottom: 2em;
   }
 #p5-h2-process{
-  color: #000;
-  /* text-shadow: 1px 1px 2px black, 0px 0px 25px #AE3FCF, 0 0 5px #AE3FCF; */
-  margin-bottom: 5px;
-  text-align: left;
-  font-size: 1.5em;
+  color: #4b4b4b;
+  margin-bottom: 2em;
   }
   #p5-h2{
-    color: #000;
-    /* text-shadow: 1px 1px 2px black, 0px 0px 25px #AE3FCF, 0 0 5px #AE3FCF; */
-    margin-bottom: 5px;
-    text-align: left;
-    font-size: 1.5em;
+    color: #4b4b4b;
+    margin-bottom: 2em;
     }
 #p4-h2-process-gallery{
 	color: #000;
@@ -733,25 +719,19 @@ font-size: 1.5em;
 }
 
 #p4-h2-challenge{
-		color: #000;
-		/* text-shadow: 1px 1px 2px black, 0px 0px 25px #fdc40a, 0 0 5px #fdc40a; */
-		margin-bottom: 5px;
-		text-align: left
+  color: #4b4b4b;
+  margin-bottom: 2em;
 
 }
 
 #p6-h2-challenge{
-  color: #000;
-  /* text-shadow: 1px 1px 2px black, 0px 0px 25px #FF9595, 0 0 5px #FF9595; */
-  margin-bottom: 5px;
-  text-align: left
+  color: #4b4b4b;
+  margin-bottom: 2em;
 
 }
 #p4-h2-overcoming{
-	color: #000;
-	/* text-shadow: 1px 1px 2px black, 0px 0px 25px #fdc40a, 0 0 5px #fdc40a; */
-	margin-bottom: 5px;
-	text-align: left
+  color: #4b4b4b;
+  margin-bottom: 2em;
 }
 
 #p1-bg{
@@ -771,7 +751,7 @@ font-size: 1.5em;
 
 #p-h7{
   /* background:transparent url(https://image.ibb.co/cSAVO7/Untitled_1.png); */
-	background-color: rgba(255, 247, 229, 0.59);
+	/* background-color: rgba(255, 247, 229, 0.59); */
 	padding: 10px;
   margin-top: 0px;
   margin-bottom: 0px;

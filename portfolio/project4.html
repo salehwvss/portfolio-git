@@ -18,21 +18,22 @@
 
 <body style="background-color:white"  data-spy="scroll" data-target="#myScrollspy" data-offset="20">
 
-  <header class="main-header"> <!-- ///////////////////////////////////////////// top header of my site -->
-    <div class="header-wrapper">    <!-- top header containing logo, nav, account and cart -->
-      <div class="header-logo">      <!-- logo in header -->
-       <a href="index.html">
-        <!-- <img class="logo-img" src="img/home-logo.png" alt="logo on top left">  -->
-        <!-- <h1> Saleh Ebrahimzadeh</h1> -->
-       </a>
-      </div>
-    </div>
 
-      <div class="main-nav">       <!-- //////////////////////////////////Main navigation on top -->
-        <a class="projects-nav-btn-p4" href="index.html">Projects</a>
-        <a class="about-nav-btn-p4" href="about.html" id="MyAccount">About</a>
-      </div>      <!-- //////////////////////////////////Main navigation on top closed -->
-  </header>   <!-- ///////////////////////////////////////////// top header of my site closed-->
+    <header class="main-header">
+        <div class="header-wrapper">
+          <div class="header-logo">
+           <a href="index.html">
+             <img src="img/LOGO.png" width="60px">
+           </a>
+          </div>
+        </div>
+    
+          <div class="main-nav">
+            <a class="projects-nav-btn" href="index.html">Projects</a>
+            <a class="about-nav-btn" href="about.html" id="MyAccount">About</a>
+    
+          </div>
+      </header>
 
 
   <div class="home-wrapper">
@@ -41,7 +42,7 @@
     <!-- vertical tabs for scroll -->
 <div class="vertic-nav2">
     <div class="row">
-      <nav class="col-sm-3" id="myScrollspy">
+      <nav class="tabs-side" id="myScrollspy">
         <ul class="nav nav-pills nav-stacked" id="p-h7" data-spy="affix" data-offset-top="205">
           <li class="active" ><a href="#p4-h2" id="tab-color">Overview</a></li><br>
           <li><a href="#p4-h2-challenge">Challenges</a></li><br>
@@ -70,14 +71,14 @@
 
 
 
-          </h6>
+          </h6><br><br>
           <div class="leftside">
           <h2 id="p4-h2-challenge"> Challenges</h2>
             <h6 class="textstyle-challenge" id="p-h7">There are a lot of challenges to make a successful business. When I started my website, I had very little information about SEOs and ways of improving website rankings on search engines like Google and Bing. I started to research about SEOs and watched hundreds of video tutorials. According to google ranking, my website is on top 4 pages of google search for specific keywords, it is not on 1st page yet, but I managed to improve it from its original position of 27 to 4.
                 Another issue for many new websites including mine was the slow speed. My website load time was around 12 seconds which is not a great score. I was losing a lot of customers due to slow page load, I could observe that through high users bounce rate. 
                 Additionally, I ran into many plugin conflicts, so I had to do a lot of debugging and sometimes had to get rid of some of the plugins.
                 
-                <br>
+                <br><br>
                 
             </h6>
           </div>
@@ -88,7 +89,9 @@
                 In addition to google ranking, I improved my website load time using different strategies such as implementing caching programs, Content Delivery networks and optimizing codes and images. Today GreatDealBazar page speed has been improved from 12s to just 2.9s depending on location and iternet connection. I managed to fix the plugin conflicts by editing couple of plugins to customize them for my own needs.
               
                 </h6>
+                <br><br>
             </div>
+
 
             <div class="leftside">
             <h2 id="p4-h2-challenge"> <span id="Role"> My Role</h2></span>
@@ -98,16 +101,18 @@
                 The project is still on progress and it is not fully done. My future plan for this project is to integrate merchant account instead of payment gateways such as PayPal. <br>
                 
                  </h6>
+                 <br><br>
             </div>
+           
 
-            <div class="rightside">
+          
                 <h2 id="p4-h2-challenge">Process</h2>
                 <a href="project4-process.html">
                   <div id="animated-border-orange">
                   <img id="p-h7" class="project1sample-process" src='img/products/gif.gif' style="opacity: 0.9; width: 100%; height:250px;"/>
                 </a>
               </div>
-            </div>
+          
 
       </div>
     </div>
@@ -117,70 +122,6 @@
     <a href="index.html" class="but-back-orange">BACK TO HOMEPAGE</a>
   </div>
 
-
-
-  <footer class="footer-container">  <!-- ///////////////////////////////////////////////Footer -->
-    <div class="footer-contents">       <!-- all info, address and links in the footer -->
-
-      <ul class="footer-address">
-        <h3 style="font-size: 1em;"> Address </h3>
-        <li><p style="color: #337ab7;" id="address">Fullerton Avenue <br>North Vancouver <br>British Columbia <br>Canada</p></li>
-      </ul>
-      <ul class="footer-Contact">
-       <h3 style="font-size: 1em;"> Contact Me </h3>
-        <li><a style="color: #337ab7;" href="mailto:salehe@sfu.ca.com">salehe@sfu.ca</a></li>
-        <li><a style="color: #337ab7;" href="tel:+16047792949">604-779-2949</a></li>
-      </ul>
-    </div>
-  </footer>   <!-- ///////////////////////////////////////////////Footer closed-->
-  <!-- <script src="js/javascript.js"></script> -->
-
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
-  <script src="js/jquery.ripples.js"></script>
-  <script>
-  $(document).ready(function() {
-  	try {
-  		$('body').ripples({
-  			resolution: 512,
-  			dropRadius: 20, //px
-  			perturbance: 0.04,
-  		});
-  		$('main').ripples({
-  			resolution: 128,
-  			dropRadius: 10, //px
-  			perturbance: 0.04,
-  			interactive: false
-  		});
-  	}
-  	catch (e) {
-  		$('.error').show().text(e);
-  	}
-
-  	$('.js-ripples-disable').on('click', function() {
-  		$('body, main').ripples('destroy');
-  		$(this).hide();
-  	});
-
-  	$('.js-ripples-play').on('click', function() {
-  		$('body, main').ripples('play');
-  	});
-
-  	$('.js-ripples-pause').on('click', function() {
-  		$('body, main').ripples('pause');
-  	});
-
-  	// Automatic drops
-  	setInterval(function() {
-  		var $el = $('main');
-  		var x = Math.random() * $el.outerWidth();
-  		var y = Math.random() * $el.outerHeight();
-  		var dropRadius = 20;
-  		var strength = 0.04 + Math.random() * 0.04;
-
-  		$el.ripples('drop', x, y, dropRadius, strength);
-  	}, 400);
-  });
-  </script>
 
 </body>
 </html>
