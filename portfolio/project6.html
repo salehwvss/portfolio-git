@@ -38,7 +38,7 @@
 
           <div class="leftside">
             <h2 id="p6-h2-challenge">SpeedyCar</h2>
-              <h6 class="textstyle-challenge" id="p6-h7"> 
+              <h6 class="textstyle-challenge-p6" id="p6-h7"> 
                 <iframe id="iframemobile"  width="510" height="316" src="https://www.youtube.com/embed/fxi4Tr-r5Ss" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
                   <br>
                   
@@ -46,7 +46,7 @@
             </div>
             <div class="rightside-p6">
               <h2 id="p6-h2-challenge">Description</h2>
-                <h6 class="textstyle-overcoming" id="p6-h7">SpeedyCar is an android game developed in Unity. The goal is to stay on path and get as much score as you can. The car turns by tapping on screen. I developed the game in summer 2016 for fun. I created the game mainly to test my unity knowledge and to implement unity ads. All the modelling such as the car has been done through Maya and Blender. Although it was not the best-looking game out there, but I learned useful tricks for lighting during the development process. <br>Link: <a id="alink" href="https://play.google.com/store/apps/details?id=de.creativeimagination.speedycar.asset&hl=en" style="color:#F04D4D;">click here</a> <br><br><br>
+                <h6 class="textstyle-overcoming-p6" id="p6-h7">SpeedyCar is an android game developed in Unity. The goal is to stay on path and get as much score as you can. The car turns by tapping on screen. I developed the game in summer 2016 for fun. I created the game mainly to test my unity knowledge and to implement unity ads. All the modelling such as the car has been done through Maya and Blender. Although it was not the best-looking game out there, but I learned useful tricks for lighting during the development process. <br>Link: <a id="alink" href="https://play.google.com/store/apps/details?id=de.creativeimagination.speedycar.asset&hl=en" style="color:#F04D4D;">click here</a> <br><br><br>
 
 
                 
@@ -55,7 +55,7 @@
 
           <div class="leftside">
           <h2 id="p6-h2-challenge">Analog Clock Widget</h2>
-            <h6 class="textstyle-challenge" id="p6-h7">
+            <h6 class="textstyle-challenge-p6" id="p6-h7">
                     <img src="img/clock/clock1.png" style="width:100px;height:115px;">
                     <img src="img/clock/clock2.png" style="width:100px;height:105px;">
                     <img src="img/clock/clock3.png" style="width:100px;height:100px;">
@@ -70,7 +70,7 @@
           </div>
           <div class="rightside">
             <h2 id="p6-h2-challenge">Description</h2>
-              <h6 class="textstyle-overcoming" id="p6-h7">Glow Analog Clock is a beautiful widget for your android smart phones/tablets. Key Features:
+              <h6 class="textstyle-overcoming-p6" id="p6-h7">Glow Analog Clock is a beautiful widget for your android smart phones/tablets. Key Features:
                 <br>
                 -Unlike other widget applications, our application doesn’t drain your battery.<br>
                 -Designed in different sizes. You can re-size the widget to tiny little clock or make it a big one.<br>
@@ -86,7 +86,7 @@
             <h2 id="p6-h2-challenge">Logo & magazine Design</h2>
             <a href="project6-detail.html">
             <div id="animated-border-pink">
-              <h6 class="textstyle-challenge" id="p6-h7">
+              <h6 class="textstyle-challenge-p6" id="p6-h7">
                      
                     <img id="ilook" src="img/magazine/ILook.png">
                     <img id="ilook" src="img/magazine/mag1.png"> 
@@ -97,7 +97,7 @@
 
             <div class="rightside">
                     <h2 id="p6-h2-challenge">Description</h2>
-                      <h6 class="textstyle-overcoming" id="p6-h7">
+                      <h6 class="textstyle-overcoming-p6" id="p6-h7">
                       This project has been done in my first year at SFU. I was in charge of all the layouts and designs. "ILOOK" is a logo for makeup products. The initial design of the logo had image of eye instead of current lipstick, however after several iterations I decided to include an element of makeup in the logo, therefore I replaced the eye with a lipstick. In addition to logo, I made promotional magazine, business card and also applied the logo to some makeup products to see how it looks.<br><br>
                         </h6>
                       
@@ -115,68 +115,7 @@
 
 
 
-  <footer class="footer-container">  <!-- ///////////////////////////////////////////////Footer -->
-    <div class="footer-contents">       <!-- all info, address and links in the footer -->
-
-      <ul class="footer-address">
-        <h3 style="font-size: 1em;"> Address </h3>
-        <li><p style="color: #337ab7;" id="address">Fullerton Avenue <br>North Vancouver <br>British Columbia <br>Canada</p></li>
-      </ul>
-      <ul class="footer-Contact">
-       <h3 style="font-size: 1em;"> Contact Me </h3>
-        <li><a style="color: #337ab7;" href="mailto:salehe@sfu.ca.com">salehe@sfu.ca</a></li>
-        <li><a style="color: #337ab7;" href="tel:+16047792949">604-779-2949</a></li>
-      </ul>
-    </div>
-  </footer>   <!-- ///////////////////////////////////////////////Footer closed-->
-  <!-- <script src="js/javascript.js"></script> -->
-
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
-  <script src="js/jquery.ripples.js"></script>
-  <script>
-  $(document).ready(function() {
-  	try {
-  		$('body').ripples({
-  			resolution: 512,
-  			dropRadius: 20, //px
-  			perturbance: 0.04,
-  		});
-  		$('main').ripples({
-  			resolution: 128,
-  			dropRadius: 10, //px
-  			perturbance: 0.04,
-  			interactive: false
-  		});
-  	}
-  	catch (e) {
-  		$('.error').show().text(e);
-  	}
-
-  	$('.js-ripples-disable').on('click', function() {
-  		$('body, main').ripples('destroy');
-  		$(this).hide();
-  	});
-
-  	$('.js-ripples-play').on('click', function() {
-  		$('body, main').ripples('play');
-  	});
-
-  	$('.js-ripples-pause').on('click', function() {
-  		$('body, main').ripples('pause');
-  	});
-
-  	// Automatic drops
-  	setInterval(function() {
-  		var $el = $('main');
-  		var x = Math.random() * $el.outerWidth();
-  		var y = Math.random() * $el.outerHeight();
-  		var dropRadius = 20;
-  		var strength = 0.04 + Math.random() * 0.04;
-
-  		$el.ripples('drop', x, y, dropRadius, strength);
-  	}, 400);
-  });
-  </script>
-
+ <br><br>
+ 
 </body>
 </html>

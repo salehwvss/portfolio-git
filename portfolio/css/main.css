@@ -447,7 +447,24 @@ color: black;
   float: right;
   border-radius: 20px;
   }
+
+  .project1sample:hover{
+    -ms-transform: scale(2); /* IE 9 */
+  -webkit-transform: scale(2); /* Safari 3-8 */
+  transform: scale(2); 
+  padding: 30px;
+  z-index: 5;
+  cursor: zoom-in;
+  }
   
+  .p5-sample-zoom1:hover{
+    -ms-transform: scale(1.75); /* IE 9 */
+    -webkit-transform: scale(1.75); /* Safari 3-8 */
+    transform: scale(1.75); 
+    padding: 30px;
+    z-index: 5;
+    cursor: zoom-in;
+  }
   .project5sample{
     width: 100%;
     max-width: 700px;
@@ -508,10 +525,30 @@ color: black;
 		font-size: 1.1em;
 		LINE-HEIGHT:30px;
 		margin-bottom: 2em;
+  }
+  
+  .textstyle-challenge-p6{
+    color:black;
+		max-width: 530px;
+		text-align: left;
+		/*margin-left: 13em;*/
+		/* font-size: 0.83em; */
+		LINE-HEIGHT:30px;
+		margin-bottom: 2em;
 	}
 	.textstyle-overcoming{
 		text-align: left;
 		font-size: 1.1em;
+		LINE-HEIGHT:30px;
+		margin-bottom: 2em;
+  }
+
+  .textstyle-overcoming-p6{
+    color:#4b4b4b;
+		max-width: 528px;
+		text-align: left;
+		/*margin-left: 13em;*/
+		/* font-size: 0.83em; */
 		LINE-HEIGHT:30px;
 		margin-bottom: 2em;
   }
@@ -731,8 +768,9 @@ color: black;
 
 #p6-h2-challenge{
   color: #4b4b4b;
+  /* text-shadow: 1px 1px 2px black, 0px 0px 25px #FF9595, 0 0 5px #FF9595; */
   margin-bottom: 2em;
-
+  /* text-align: left; */
 }
 #p4-h2-overcoming{
   color: #4b4b4b;
@@ -946,6 +984,7 @@ color: black;
   transform: scale(2); 
   padding: 30px;
   z-index: 5;
+  cursor: zoom-in;
 }
 
 /* zoom on hover */
