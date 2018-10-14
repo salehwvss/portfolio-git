@@ -151,7 +151,7 @@
 
 #p3-process-gallery-size{
   width:100%; 
-  /* height:300px; */
+  height:550px;
   border-radius: 20px;
 }
 .home-products{
@@ -367,6 +367,17 @@
 width: 100%;
 
 
+}
+
+.project2sample-process{
+  width: 100%;
+  /* max-width: 320px; */
+  max-height: 280px;
+  filter: blur(3px);
+  -webkit-filter: blur(3px);
+  -moz-filter: blur(3px);
+  -o-filter: blur(3px);
+  -ms-filter: blur(3px);
 }
 .footer-contents{
   width: 100%;
