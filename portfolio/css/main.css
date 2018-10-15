@@ -937,10 +937,10 @@ color: black;
 }
 
 .p4-process-img{
-	width: 800px;
+	width: 100%;
   /* height: 500px; */
-  max-height: 800px;
-	border: 1px solid #FFDCA7;
+  /* max-height: 800px; */
+	/* border: 1px solid #FFDCA7; */
   border-radius: 20px;
 }
 
