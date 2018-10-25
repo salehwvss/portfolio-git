@@ -965,7 +965,7 @@ color: black;
 	/* background: rgba(0, 0, 0, 0.2); */
 	/* border: 1px solid #D4F2D1; */
   margin-bottom: 1em;
-  border-radius: 20px;
+  /* border-radius: 20px; */
 }
 
 /* #space{
@@ -988,7 +988,7 @@ color: black;
   /* height: 500px; */
   /* max-height: 800px; */
 	/* border: 1px solid #FFDCA7; */
-  border-radius: 20px;
+  /* border-radius: 20px; */
 }
 
 /* zoom on hover */
@@ -1046,7 +1046,7 @@ color: black;
 	background: rgba(0, 0, 0, 0.2);
 	/* border: 1px solid #D4F2D1; */
   margin-bottom: 1em;
-  border-radius: 20px;
+  /* border-radius: 20px; */
 }
 
 /* zoom on hover */
@@ -1110,7 +1110,7 @@ color: black;
 	/* background: rgba(0, 0, 0, 0.2); */
 	/* border: 1px solid #D4F2D1; */
   margin-bottom: 1em;
-  border-radius: 20px;
+  /* border-radius: 20px; */
 }
 
 .process-p3-sketch-sample-left{
@@ -1187,7 +1187,7 @@ color: black;
 
   height: 200px;
   width: 350px;
-	border-radius: 10%;
+	/* border-radius: 10%; */
   background-size: 100% 100%;
   box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
   
@@ -1198,7 +1198,7 @@ color: black;
   background-image: url('https://image.ibb.co/gBr0hm/sample3.png');
   height: 200px;
   width: 350px;
-	border-radius: 10%;
+	/* border-radius: 10%; */
   background-size: 100% 100%;
   box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
 }
@@ -1208,7 +1208,7 @@ color: black;
   background-image: url('https://image.ibb.co/mCm6KJ/project4img_min.png');
   height: 200px;
   width: 350px;
-	border-radius: 10%;
+	/* border-radius: 10%; */
   background-size: 100% 100%;
   box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
 }
@@ -1219,7 +1219,7 @@ color: black;
   background-image: url('https://image.ibb.co/kWEjad/mag1.png');
   height: 200px;
   width: 350px;
-	border-radius: 10%;
+	/* border-radius: 10%; */
   background-size: 100% 100%;
   box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
 }
@@ -1229,7 +1229,7 @@ color: black;
   background-image: url('https://image.ibb.co/m7aQWy/home_laptop_min.jpg');
   height: 200px;
   width: 350px;
-	border-radius: 10%;
+	/* border-radius: 10%; */
   background-size: 100% 100%;
   box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
 }
@@ -1238,7 +1238,7 @@ color: black;
   background-image: url('https://image.ibb.co/jbDo1J/iat335_main.jpg');
   height: 200px;
   width: 350px;
-	border-radius: 10%;
+	/* border-radius: 10%; */
   background-size: 100% 100%;
   box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
 }
@@ -1248,7 +1248,7 @@ color: black;
   background-image: url('https://image.ibb.co/gfcStd/Tile_Room_Exterior_min.png');
   height: 200px;
   width: 350px;
-	border-radius: 10%;
+	/* border-radius: 10%; */
   background-size: 100% 100%;
   box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
 }
@@ -1623,7 +1623,7 @@ display: block;
   -moz-animation-duration: 2s;
   -moz-animation-timing-function: linear;
   -moz-animation-iteration-count: infinite;
-  border-radius: 20px;
+  /* border-radius: 20px; */
 }
 
 @keyframes flash_border {
@@ -2020,7 +2020,7 @@ margin: 0px;
   background:#fff;
   box-shadow:0px 5px 20px rgba(0,0,0,0.1);
   display:inline-block;
-  border-radius:50px;
+  /* border-radius:50px; */
   position:relative;
   /* margin-left: 24%; */
   /* margin-bottom: 2%; */
@@ -2104,7 +2104,7 @@ margin: 0px;
   left:0px;
   top:0px;
   z-index:1;
-  border-radius:50px;
+  /* border-radius:50px; */
   transition-duration:0.6s;
   transition-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
   background: #4b4b4b;
