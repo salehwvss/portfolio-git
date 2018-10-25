@@ -60,7 +60,7 @@ h4{
 .top-margin-title{    /*set top margin to 0 for product titles*/
   margin-top: 15px;
   margin-left: 12px;
-  color:black;
+  color:#4b4b4b;
   /* font-family: serif; */
   font-size: 0.9em;
 }
@@ -68,7 +68,7 @@ h4{
 .top-margin-title2{    /*set top margin to 0 for product titles*/
   margin-top: 15px;
   margin-left: 12px;
-  color:black;
+  color:#4b4b4b;
   /* font-family: serif; */
   font-size: 0.9em;
 }
@@ -76,7 +76,7 @@ h4{
 .top-margin-title3{    /*set top margin to 0 for product titles*/
   margin-top: 15px;
   margin-left: 12px;
-  color:black;
+  color:#4b4b4b;
   /* font-family: serif; */
 font-size: 0.9em;
 }
@@ -84,7 +84,7 @@ font-size: 0.9em;
 .top-margin-title4{    /*set top margin to 0 for product titles*/
   margin-top: 15px;
   margin-left: 12px;
-  color:black;
+  color:#4b4b4b;
   /* font-family: serif; */
 font-size:0.9em;
 }
@@ -92,7 +92,7 @@ font-size:0.9em;
 .top-margin-title5{    /*set top margin to 0 for product titles*/
   margin-top: 15px;
   margin-left: 12px;
-  color:black;
+  color:#4b4b4b;
   /* font-family: serif; */
 font-size: 0.9em;
 }
@@ -100,7 +100,7 @@ font-size: 0.9em;
 .top-margin-title6{    /*set top margin to 0 for product titles*/
   margin-top: 15px;
   margin-left: 12px;
-  color:black;
+  color:#4b4b4b;
   /* font-family: serif; */
 font-size: 0.9em;
 }
@@ -127,7 +127,7 @@ a:hover, a:focus{
   color:rgba(255, 255, 255, 0.9);
 }
 #alink{
-color: black;
+color: #4b4b4b;;
 }
 .main-header{
  /* background-color: #1a1b1c; */ 
