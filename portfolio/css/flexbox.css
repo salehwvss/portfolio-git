@@ -384,6 +384,17 @@ width: 100%;
 
 }
 
+
+.process-p7-sample1-big:hover{
+  -ms-transform: scale(1); /* IE 9 */
+  -webkit-transform: scale(1); /* Safari 3-8 */
+  transform: scale(1); 
+  padding: 30px;
+  z-index: 5;
+  cursor: zoom-in;
+
+}
+
 .project2sample-process{
   width: 100%;
   /* max-width: 320px; */
@@ -659,6 +670,8 @@ display: none;
   
   }
 
+  
+
   .p3-sketch-section{
     width: 100%;
   }
@@ -797,7 +810,7 @@ width: unset;
 /* Desktop Styles */
 @media only screen and (min-width: 961px) {
   body {
-    /*background-color: #B2D6FF; /* Blue */*/
+ 
 
   }
 
@@ -847,4 +860,43 @@ margin-left: -20%;
       width: 100%;
       height: unset;
     }
+
+    
+.process-p7-sample1-big:hover{
+  -ms-transform: scale(1); /* IE 9 */
+  -webkit-transform: scale(1); /* Safari 3-8 */
+  transform: scale(1); 
+  padding: 30px;
+  z-index: 5;
+  cursor: zoom-in;
+
+}
+
+.process-p3-sketch-sample-left{
+	background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100%;
+	overflow:hidden;
+  margin-bottom: 1em;
+  border-radius: 20px;
+  /* float:center;  */
+  width: 40%;
+ 
+
+}
+
+.process-p3-sketch-sample-right{
+	background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100%;
+	overflow:hidden;
+  margin-bottom: 1em;
+  border-radius: 20px;
+  /* float:center;  */
+  width: 40%;
+
+}
+
+
+
 }

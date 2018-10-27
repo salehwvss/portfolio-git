@@ -1088,6 +1088,31 @@ text-decoration: none;
   z-index: 5;
 }
 
+
+.process-p7-sample1-big{
+width: 100%;
+
+	background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100%;
+	overflow:hidden;
+	background: rgba(0, 0, 0, 0.2);
+  margin-bottom: 1em;
+  
+}
+
+/* zoom on hover */
+
+.process-p7-sample1-big:hover{
+  -ms-transform: scale(2.5); /* IE 9 */
+  -webkit-transform: scale(2.5); /* Safari 3-8 */
+  transform: scale(2.5); 
+  padding: 30px;
+  z-index: 5;
+  cursor: zoom-in;
+
+}
+
 .process-p2-sample1{
 	/* width: 100%; */
 	height: 450px;
@@ -2114,6 +2139,7 @@ margin: 0px;
   background: #4b4b4b;
  
 }
+
 
 .tabs .selector{
   height:100%;
