@@ -35,7 +35,7 @@ h2 {
 
 	font-weight: 100;
   font-size: 1.5em;
-
+  color:#4b4b4b !important;
   /* color: #6bccef; */
 	/* text-shadow: 1px 1px 2px black, 0px 0px 25px blue, 0 0 5px darkblue; */
 
@@ -55,6 +55,8 @@ h3 {
 h4{
   font-size: .7em;
   /* font-family: "Open Sans"; */
+  color:#4b4b4b !important;
+
 
 }
 .top-margin-title{    /*set top margin to 0 for product titles*/
@@ -120,9 +122,9 @@ a{
   text-decoration: none;
 }
 
-hr{
-		border: 1px solid #AD1D1D;
-}
+/* hr{
+		border: 1px solid #4b4b4b;
+} */
 a:hover, a:focus{
   color:rgba(255, 255, 255, 0.9);
 }
@@ -181,6 +183,17 @@ text-decoration: none;
   text-align: center;
   width: 130px;
   border-radius: 50px;
+}
+
+.bg-about{
+  background-image: url('../img/sali.jpg');
+	min-height: 30em;
+	background-size: cover;
+	background-position: 60% center;
+	-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+
 }
 
 .projects-nav-btn-p6{
@@ -626,7 +639,8 @@ text-decoration: none;
 
 .but-back:hover, .but-back:focus {
   /* opacity: 0.7; */
-  background-color: #00000073;
+  /* background-color: #00000073; */
+  background-color: #00000096;
 
   text-decoration: none;
   color: #FFF;
@@ -858,7 +872,7 @@ text-decoration: none;
 }
 #p6-h7{
   /* background:transparent url(https://image.ibb.co/cSAVO7/Untitled_1.png); */
-	background-color: rgba(255, 149, 149, 0.07);
+	/* background-color: rgba(255, 149, 149, 0.07); */
 	padding: 10px;
   margin-top: 0px;
   margin-bottom: 0px;
