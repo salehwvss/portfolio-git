@@ -192,7 +192,7 @@ text-decoration: none;
 }
 
 .bg-about{
-  background-image: url('../img/sali.jpg');
+  background-image: url('../img/sali4.jpg');
 	min-height: 30em;
 	background-size: cover;
 	background-position: 60% center;
@@ -493,16 +493,16 @@ text-decoration: none;
   }
   
   .p5-sample-zoom1:hover{
-    -ms-transform: scale(1.5); /* IE 9 */
-    -webkit-transform: scale(1.5); /* Safari 3-8 */
-    transform: scale(1.5); 
+    -ms-transform: scale(1.8); /* IE 9 */
+    -webkit-transform: scale(1.8); /* Safari 3-8 */
+    transform: scale(1.8); 
     padding: 30px;
     z-index: 5;
     cursor: zoom-in;
   }
   .project5sample{
-    width: 100%;
-    max-width: 700px;
+    max-width: 80%;
+    max-width: auto;
    
     }
 
@@ -1309,6 +1309,16 @@ width: 100%;
 .video-SpaceGeo {
 	background-repeat: no-repeat;
   background-image: url('https://image.ibb.co/gfcStd/Tile_Room_Exterior_min.png');
+  height: 200px;
+  width: 350px;
+	/* border-radius: 10%; */
+  background-size: 100% 100%;
+  box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+}
+
+.ux-ui-project{
+  background-repeat: no-repeat;
+  background-image: url('https://image.ibb.co/j8iD2f/High-fidelity.png');
   height: 200px;
   width: 350px;
 	/* border-radius: 10%; */
